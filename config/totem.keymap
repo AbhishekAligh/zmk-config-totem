@@ -58,6 +58,16 @@
             bindings = <&kp LG(V)>;
             key-positions = <23 24>;
         };
+
+        left-fullscreen-toggle {
+            bindings = <&kp LG(LC(F))>;
+            key-positions = <2 14>;
+        };
+
+        right-fullscreen-toggle {
+            bindings = <&kp RG(RC(F))>;
+            key-positions = <15 7>;
+        };
     };
 
     macros {
